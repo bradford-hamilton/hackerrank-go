@@ -9,6 +9,4 @@ func printArr(arr []int32) {
 	fmt.Print("\n")
 }
 
-func main() {
-	designerPdfViewer([]int32{1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7}, "zaba")
-}
+func main() {}
