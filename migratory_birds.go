@@ -12,6 +12,7 @@ func migratoryBirds(arr []int32) int32 {
 
 	var mostSightedID int32
 	var mostSights int32
+
 	for birdID, numOfSights := range m {
 		if numOfSights > mostSights {
 			mostSights = numOfSights
@@ -23,5 +24,6 @@ func migratoryBirds(arr []int32) int32 {
 			}
 		}
 	}
+
 	return mostSightedID
 }

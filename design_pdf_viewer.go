@@ -20,5 +20,6 @@ func designerPdfViewer(h []int32, word string) int32 {
 			largest = m[string(v)]
 		}
 	}
+
 	return int32(len(word)) * largest
 }

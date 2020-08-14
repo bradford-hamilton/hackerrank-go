@@ -18,7 +18,7 @@ func catAndMouse(x int32, y int32, z int32) string {
 		return "Cat A"
 	} else if catADistance > catBDistance {
 		return "Cat B"
-	} else {
-		return "Mouse C"
 	}
+
+	return "Mouse C"
 }

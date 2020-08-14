@@ -2,7 +2,6 @@ package main
 
 // https://www.hackerrank.com/challenges/countingsort2/problem
 func countingSort(arr []int32) []int32 {
-	// all nums fit within 0-100
 	res := make([]int32, 100)
 	for _, v := range arr {
 		res[v]++

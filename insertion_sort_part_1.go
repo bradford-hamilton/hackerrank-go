@@ -11,6 +11,7 @@ func insertionSort1(n int32, arr []int32) {
 		j--
 		printArr(arr)
 	}
+
 	arr[j] = v
 	printArr(arr)
 }

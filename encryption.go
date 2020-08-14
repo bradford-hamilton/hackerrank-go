@@ -20,5 +20,6 @@ func encryption(s string) string {
 		}
 		ret += " "
 	}
+
 	return ret
 }
