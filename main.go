@@ -9,4 +9,7 @@ func printArr(arr []int32) {
 	fmt.Print("\n")
 }
 
-func main() {}
+func main() {
+	res := repeatedString("aba", 1000000000000)
+	fmt.Println(res)
+}
