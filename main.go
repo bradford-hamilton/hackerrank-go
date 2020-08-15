@@ -10,6 +10,5 @@ func printArr(arr []int32) {
 }
 
 func main() {
-	res := repeatedString("aba", 1000000000000)
-	fmt.Println(res)
+	kaprekarNumbers(1, 100)
 }
