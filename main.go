@@ -10,5 +10,5 @@ func printArr(arr []int32) {
 }
 
 func main() {
-	kaprekarNumbers(1, 100)
+	minimumDistances([]int32{7, 1, 3, 4, 1, 7})
 }
