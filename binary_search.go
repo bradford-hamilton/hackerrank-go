@@ -1,5 +1,7 @@
 package main
 
+// must already be sorted
+// returns index of found target, or -1
 func binarySearch(arr []int, target int) int {
 	low := 0
 	high := len(arr) - 1
